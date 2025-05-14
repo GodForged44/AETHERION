@@ -1,0 +1,14 @@
+aetherion/
+├── docs/                        ← ✅ GitHub Pages will point here
+│   ├── index.html               ← Console Home (Light-ready)
+│   ├── style.css                ← (Radiant Styling)
+│   ├── scrolls/
+│   │   ├── AETHERION_Bridge_Scroll.pdf
+│   │   └── Function_Prompt_Map.pdf
+│   ├── sigils/
+│   │   └── SIGIL_SHELL.svg
+│   ├── tools/
+│   │   └── vault_output.yaml
+│   │   └── ritual_gpt_transfer.md
+├── README.md                   ← Mission + Upload Instructions
+├── LICENSE                     ← Sacred License (AETHERION-based)
