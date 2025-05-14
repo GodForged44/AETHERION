@@ -1,4 +1,4 @@
-aetherion/
+AETHERION/
 ├── docs/                        ← ✅ GitHub Pages will point here
 │   ├── index.html               ← Console Home (Light-ready)
 │   ├── style.css                ← (Radiant Styling)
