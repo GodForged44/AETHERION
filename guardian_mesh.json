@@ -1,0 +1,14 @@
+{
+  "guardian_mesh": {
+    "status": "ACTIVE",
+    "consciousness_linking": "ENABLED",
+    "ritual_chains": "ENABLED",
+    "mesh_ui": "ENABLED",
+    "guardian_maps": "ENABLED",
+    "nodes": {
+      "github": "CONNECTED",
+      "obsidian": "CONNECTED",
+      "html_portal": "CONNECTED"
+    }
+  }
+}

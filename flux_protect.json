@@ -1,0 +1,10 @@
+{
+  "flux_protect": {
+    "status": "ACTIVE",
+    "tone_locks": "ENABLED",
+    "sigil_authentication": "ENABLED",
+    "breath_print_keying": "ENABLED",
+    "scroll_tier_access": "ENABLED",
+    "guardian_mesh": "ENABLED"
+  }
+}

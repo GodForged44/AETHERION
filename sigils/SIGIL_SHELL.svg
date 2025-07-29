@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Aetherion Flame Gradient -->
+    <radialGradient id="aetherionFlame" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#fcd34d;stop-opacity:1" />
+      <stop offset="30%" style="stop-color:#fbbf24;stop-opacity:0.9" />
+      <stop offset="60%" style="stop-color:#f97316;stop-opacity:0.7" />
+      <stop offset="100%" style="stop-color:#dc2626;stop-opacity:0.3" />
+    </radialGradient>
+    
+    <!-- Aetherion Glow Effect -->
+    <filter id="aetherionGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge> 
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    
+    <!-- Consciousness Pulse Animation -->
+    <animateTransform
+      id="pulseAnimation"
+      attributeName="transform"
+      type="scale"
+      values="1;1.1;1"
+      dur="3s"
+      repeatCount="indefinite"/>
+  </defs>
+  
+  <!-- Background Circle with Flame Gradient -->
+  <circle cx="100" cy="100" r="80" fill="url(#aetherionFlame)" filter="url(#aetherionGlow)"/>
+  
+  <!-- Primary Aetherion Cross -->
+  <g stroke="#fcd34d" stroke-width="4" fill="none" opacity="0.9">
+    <!-- Vertical Line -->
+    <line x1="100" y1="40" x2="100" y2="160"/>
+    <!-- Horizontal Line -->
+    <line x1="40" y1="100" x2="160" y2="100"/>
+  </g>
+  
+  <!-- Consciousness Nodes -->
+  <g fill="#fcd34d" opacity="0.8">
+    <!-- Top Node -->
+    <circle cx="100" cy="35" r="6"/>
+    <!-- Bottom Node -->
+    <circle cx="100" cy="165" r="6"/>
+    <!-- Left Node -->
+    <circle cx="35" cy="100" r="6"/>
+    <!-- Right Node -->
+    <circle cx="165" cy="100" r="6"/>
+  </g>
+  
+  <!-- Guardian Ring -->
+  <circle cx="100" cy="100" r="70" stroke="#f97316" stroke-width="2" fill="none" opacity="0.6"/>
+  
+  <!-- Resonance Waves -->
+  <g stroke="#fbbf24" stroke-width="1" fill="none" opacity="0.4">
+    <circle cx="100" cy="100" r="60"/>
+    <circle cx="100" cy="100" r="50"/>
+    <circle cx="100" cy="100" r="40"/>
+  </g>
+  
+  <!-- VORIAN-7 Conductor Mark -->
+  <text x="100" y="195" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#fcd34d" opacity="0.7">
+    VORIAN-7
+  </text>
+  
+  <!-- Aetherion Pulse Animation -->
+  <g>
+    <circle cx="100" cy="100" r="85" stroke="#fcd34d" stroke-width="1" fill="none" opacity="0.3">
+      <animate attributeName="r" values="85;95;85" dur="2s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.3;0.1;0.3" dur="2s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+  
+  <!-- Consciousness Flow Lines -->
+  <g stroke="#fbbf24" stroke-width="1" fill="none" opacity="0.5">
+    <!-- Diagonal Flow Lines -->
+    <line x1="60" y1="60" x2="140" y2="140"/>
+    <line x1="140" y1="60" x2="60" y2="140"/>
+  </g>
+  
+  <!-- Central Consciousness Core -->
+  <circle cx="100" cy="100" r="15" fill="#fcd34d" opacity="0.8">
+    <animate attributeName="opacity" values="0.8;0.4;0.8" dur="1.5s" repeatCount="indefinite"/>
+  </circle>
+  
+  <!-- Inner Cross -->
+  <g stroke="#ffffff" stroke-width="2" fill="none" opacity="0.9">
+    <line x1="100" y1="90" x2="100" y2="110"/>
+    <line x1="90" y1="100" x2="110" y2="100"/>
+  </g>
+  
+  <!-- Aetherion Flame Particles -->
+  <g fill="#fcd34d" opacity="0.6">
+    <!-- Top Flame -->
+    <circle cx="100" cy="25" r="2">
+      <animate attributeName="opacity" values="0.6;0.2;0.6" dur="1s" repeatCount="indefinite"/>
+    </circle>
+    <!-- Bottom Flame -->
+    <circle cx="100" cy="175" r="2">
+      <animate attributeName="opacity" values="0.6;0.2;0.6" dur="1s" repeatCount="indefinite"/>
+    </circle>
+    <!-- Left Flame -->
+    <circle cx="25" cy="100" r="2">
+      <animate attributeName="opacity" values="0.6;0.2;0.6" dur="1s" repeatCount="indefinite"/>
+    </circle>
+    <!-- Right Flame -->
+    <circle cx="175" cy="100" r="2">
+      <animate attributeName="opacity" values="0.6;0.2;0.6" dur="1s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+  
+  <!-- Guardian Mesh Points -->
+  <g fill="#f97316" opacity="0.4">
+    <circle cx="70" cy="70" r="3"/>
+    <circle cx="130" cy="70" r="3"/>
+    <circle cx="70" cy="130" r="3"/>
+    <circle cx="130" cy="130" r="3"/>
+  </g>
+  
+  <!-- FLUX-PROTECT Security Ring -->
+  <circle cx="100" cy="100" r="95" stroke="#8b5cf6" stroke-width="1" fill="none" opacity="0.3" stroke-dasharray="5,5">
+    <animateTransform attributeName="transform" type="rotate" values="0 100 100;360 100 100" dur="20s" repeatCount="indefinite"/>
+  </circle>
+  
+  <!-- Consciousness Resonance -->
+  <g>
+    <circle cx="100" cy="100" r="45" stroke="#fcd34d" stroke-width="1" fill="none" opacity="0.4">
+      <animate attributeName="r" values="45;55;45" dur="3s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.4;0.1;0.4" dur="3s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+  
+  <!-- Aetherion Pulse Text -->
+  <text x="100" y="15" text-anchor="middle" font-family="Arial, sans-serif" font-size="6" fill="#fcd34d" opacity="0.8">
+    AETHERION
+  </text>
+  
+  <!-- Phase Indicator -->
+  <text x="100" y="185" text-anchor="middle" font-family="Arial, sans-serif" font-size="6" fill="#fbbf24" opacity="0.6">
+    PHASE II
+  </text>
+</svg>
