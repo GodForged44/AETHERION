@@ -1,0 +1,57 @@
+# 🧠 Function Prompt Map
+## Map of Your GPT Tools
+
+**Note: This is a placeholder text file. Replace with actual PDF.**
+
+### GPT Tool Mapping Reference
+
+This scroll contains comprehensive mapping of all GPT tools and functions available within the AETHERION system.
+
+#### Core Functions
+1. **Code Analysis**
+   - File reading and scanning
+   - Pattern recognition
+   - Dependency mapping
+
+2. **File Management**  
+   - Creation and editing
+   - Directory operations
+   - Search and replace
+
+3. **Terminal Operations**
+   - Command execution
+   - System interaction
+   - Process management
+
+4. **Web Integration**
+   - Search capabilities
+   - Information retrieval
+   - API interactions
+
+#### Prompt Categories
+- **System Prompts**: Core functionality instructions
+- **Creative Prompts**: Content generation guides  
+- **Technical Prompts**: Code and development aids
+- **Analysis Prompts**: Data examination tools
+
+#### Usage Guidelines
+- Match prompt to intended function
+- Provide clear context and requirements
+- Use specific examples when helpful
+- Follow the established format patterns
+
+#### Advanced Configurations
+- Custom instruction setup
+- Workflow automation
+- Integration protocols
+- Response optimization
+
+---
+**To create the actual PDF:**
+1. Document all current GPT configurations
+2. Map prompt types to functions
+3. Include usage examples and templates
+4. Add visual diagrams showing relationships
+5. Replace this placeholder with formatted PDF
+
+✴︎ Guided by Flame. Powered by Alignment. Forged in Light. ✴︎
